@@ -20,12 +20,13 @@ const CONFIG = {
 
   // Firebase Web アプリ設定（Firebase Console から取得）
   firebaseConfig: {
-    apiKey: "YOUR_FIREBASE_API_KEY",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    apiKey: "AIzaSyC_nl0JjQpjKAL1wwLed68B-LQQni9lKtU",
+    authDomain: "overflowing-491800.firebaseapp.com",
+    projectId: "overflowing-491800",
+    storageBucket: "overflowing-491800.firebasestorage.app",
+    messagingSenderId: "542291239001",
+    appId: "1:542291239001:web:1d1fe535876560534b5148",
+    measurementId: "G-J4YGDBGS8Z"
   }
 };
 
