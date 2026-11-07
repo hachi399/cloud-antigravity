@@ -6,7 +6,7 @@ from datetime import datetime
 from typing import Dict, Any, List, Optional
 from google.cloud import storage
 
-BUCKET_NAME = os.getenv("SANDBOX_BUCKET_NAME", "antigravity-sandbox-hachi399")
+BUCKET_NAME = os.getenv("SANDBOX_BUCKET_NAME", "antigravity-sandbox-overflowing-491800")
 
 def _get_storage_client() -> storage.Client:
     return storage.Client()

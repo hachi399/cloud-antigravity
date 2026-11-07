@@ -6,7 +6,7 @@ import argparse
 from pathlib import Path
 from google.cloud import storage
 
-BUCKET_NAME = os.getenv("SANDBOX_BUCKET_NAME", "antigravity-sandbox-hachi399")
+BUCKET_NAME = os.getenv("SANDBOX_BUCKET_NAME", "antigravity-sandbox-overflowing-491800")
 
 def pull_results(dest_dir: str = "./cloud-results", task_id: str = None):
     """gs://<BUCKET_NAME>/outbox/ から成果物をローカルへ回収する"""

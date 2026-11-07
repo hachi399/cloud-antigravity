@@ -4,9 +4,9 @@
 #>
 
 param (
-    [string]$ProjectId = "",
+    [string]$ProjectId = "overflowing-491800",
     [string]$Region = "asia-northeast1",
-    [string]$BucketName = "antigravity-sandbox-hachi399"
+    [string]$BucketName = "antigravity-sandbox-overflowing-491800"
 )
 
 Write-Host "==========================================================" -ForegroundColor Cyan

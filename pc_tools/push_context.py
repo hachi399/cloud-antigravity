@@ -6,7 +6,7 @@ import argparse
 from pathlib import Path
 from google.cloud import storage
 
-BUCKET_NAME = os.getenv("SANDBOX_BUCKET_NAME", "antigravity-sandbox-hachi399")
+BUCKET_NAME = os.getenv("SANDBOX_BUCKET_NAME", "antigravity-sandbox-overflowing-491800")
 
 def push_context(source_path: str, clean_remote: bool = False):
     """指定したファイルまたはディレクトリを gs://<BUCKET_NAME>/inbox/ へ投函する"""
