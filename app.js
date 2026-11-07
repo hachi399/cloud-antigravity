@@ -13,7 +13,7 @@ import {
 // ==========================================
 const CONFIG = {
   // Cloud Run デプロイ後のエンドポイント URL
-  apiBaseUrl: window.API_BASE_URL || "https://cloud-antigravity-api-xxxx.a.run.app",
+  apiBaseUrl: window.API_BASE_URL || "https://cloud-antigravity-api-542291239001.asia-northeast1.run.app",
   
   // 認可する正規 Google メールアドレス（ホワイトリスト）
   allowedEmail: "yonghachi399@gmail.com",
